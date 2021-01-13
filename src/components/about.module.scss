@@ -49,8 +49,8 @@
 }
 
 .bookBackground {
-    background-image: url('../images/book-background.jpg');
-    height: 350px;
+    background-image: url('../images/book-background-600.jpg');
+    height: 150px;
     background-size: 100%; //drugie 100%
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -87,7 +87,7 @@
 
 .shapeDividerBottom {
     position: relative;
-    top: 193px;
+    top: 10px;
     //bottom: 0;
     left: 0;
     width: 100%;
@@ -109,6 +109,18 @@
 .shapeDividerBottom .shapeFill {
     fill: #F7F7F7;
     background: none;
+}
+
+@media screen and (min-width: 850px) {
+    .bookBackground{
+        background-image: url('../images/book-background.jpg');
+        height: 350px;
+        top: 193px;
+    }
+
+    .shapeDividerBottom{
+        top: 193px;
+    }
 }
 
 

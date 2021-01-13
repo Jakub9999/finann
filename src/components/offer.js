@@ -15,7 +15,7 @@ const Offer = () => {
                     <img src={IconBooks} />
                     <h2>Podatkowa księga przychodów i rozchodów</h2>
                     <p>
-                        Biuro świadczy usługi księgowe i profesjonalną obsługę 
+                        Świadczymy usługi księgowe i profesjonalną obsługę 
                         podatkową dla jednoosobowych działalności gospodarczych 
                         oraz spółek cywilnych, prowadzących rozliczenia 
                         na zasadach podatkowej księgi przychodów i rozchodów.
@@ -25,17 +25,17 @@ const Offer = () => {
                     <img src={IconGroup} />
                     <h2>Kadry i płace</h2>
                     <p>
-                        Biuro świadczy kompleksowe usługi kadrowo-płacowe, 
+                        Świadczymy kompleksowe usługi kadrowo-płacowe, 
                         tj. sporządzanie list płac, prowadzenie akt osobowych, 
-                        sporządzanie umów, rozliczenia z ZUS, itp.
+                        sporządzanie umów, rozliczenia z ZUS.
                     </p>
                 </div>
                 <div className={OfferStyle.offerElement}>
                     <img src={IconNotebook} />
                     <h2>Ewidencja ryczałtowa</h2>
                     <p>
-                        Biuro świadczy również usługi dla osób, które wybrały jako formę 
-                        Rozliczeń, ryczałt ewidencjonowany lub kartę podatkową.
+                        Prowadzimy również rozliczenia dla osób, które wybrały jako formę
+                        rozliczeń ryczałt ewidencjonowany lub kartę podatkową.
                     </p>
                 </div>
                 <div className={OfferStyle.offerElement}>

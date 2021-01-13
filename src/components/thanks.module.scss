@@ -1,14 +1,49 @@
+.backgroundHandshake {
+    background-image: url("../images/handshake-background.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-size: auto 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.bgcolor{
+    width: 100%;
+    height: 100%;
+    background-color: #000000;
+    opacity: 0.65;
+}
+
 .container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin-right: auto;
+    margin-left: auto;
     width: 80%;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    background: none;
 }
 
 .container h1 {
-    margin-top: 5rem;
+    padding-top: 5rem;
     margin-bottom: 3rem;
+    background: none;
+    color: #FFFFFF;
+}
+
+.container p {
+    background: none;
+    color: #FFFFFF;
+}
+
+.button {
+    background: none;
 }
 
 .buttonStyle {
@@ -25,8 +60,30 @@
     transition-timing-function: ease-in-out;
     transition: 0.4s;
     outline: none;
+    cursor: pointer;
 }
 
 .buttonStyle:hover {
     transform: scale(1.1);
+}
+
+@media screen and (min-width: 800px) {
+    .backgroundHandshake {
+        background-size: 100%;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .backgroundHandshake {
+        background-size: auto 100%;
+    }
+    .container h1 {
+        padding-top: 10rem;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    .backgroundHandshake {
+        background-size: 100%;
+    }
 }

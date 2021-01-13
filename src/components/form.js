@@ -54,12 +54,15 @@ const FormPage = () => {
                             <input type="text" placeholder="Telefon" name="phone" className={FormStyle.inputStyle} onChange={handleChange}></input>
                         </div>
                         <div className={FormStyle.item, FormStyle.itemText}>
-                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+                            <p> Zapraszamy do kontaktu z nami poprzez formularz zgłoszeniowy.
                             </p>
                             <p>
-                                when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                                It has survived not only five centuries
+                                <div className={FormStyle.consent}>
+                                * Wyrażam zgodę na przetwarzanie moich danych osobowych zgodnie z ustawą o ochronie danych osobowych w związku z realizacją zgłoszenia.
+                                Podanie danych jest dobrowolne, ale niezbędne do przetworzenia zapytania. Zostałem /am poinformowany /a, że przysługuje mi prawo dostępu
+                                do swoich danych, możliwości ich poprawiania, żądania zaprzestania ich przetwarzania. Administratorem danych osobowych jest Biuro
+                                Rachunkowe FIN-ANN z siedzibą w Bibicach, ul. Mokra 4G/1.
+                                </div>
                             </p>
                         </div>
                     </div>

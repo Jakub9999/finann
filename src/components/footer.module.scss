@@ -2,6 +2,7 @@
     min-height: 100px;
     background-color: #222222;
     padding: 20px;
+    display: grid;
 }
 
 .container {
@@ -9,15 +10,44 @@
     padding-top: auto;
     padding-bottom: auto;
     background: none;
-    line-height: 1.5rem;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    width: 200px;
+}
+
+.container2 {
+    color: #FFFFFF;
+    padding-top: auto;
+    padding-bottom: auto;
+    background: none;
+    line-height: 1.2rem;
+    font-size: 0.8rem;
+    margin-bottom: 1.2rem;
 }
 
 .iconsCredit {
     background: none;
+    color: #FFFFFF;
+    font-size: 0.7rem;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
 }
 
-.iconsCredit a{
+.iconsCreditLine {
+    background: none;
+}
+
+.iconsCreditLine a{
     text-decoration: none;
     background: none;
     color: #FFFFFF;
+    text-align: right;
+    font-size: 0.7rem;
+}
+
+@media screen and (min-width: 850px) {
+    .footer {
+        grid-template-columns: 200px 200px auto;
+    }
 }
